@@ -1,0 +1,45 @@
+[2012-08-20 11:06:40][50895][1401][ERROR][SQL Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) at /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72
+)
+]
+[2012-08-20 11:06:40][51039][7571][ERROR][SQL Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) at /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72
+)
+]
+[2012-08-20 11:06:42][50895][6884][ERROR][SQL Error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) at /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/u224958/quarry.easell.ru/www/engine/modules/database/Database.class.php line 72
+)
+]
+[2012-09-03 18:36:51][86734][2280][ERROR][SQL Error: Unknown column 'status' in 'where clause' at /home/u224958/quarry.ru/www/plugins/gallery/classes/modules/gallery/mapper/Gallery.mapper.class.php line 59<br>
+Array
+(
+    [code] => 1054
+    [message] => Unknown column 'status' in 'where clause'
+    [query] => select * from prefix_gallery_image where status = 1 and album_id = 26
+    [context] => /home/u224958/quarry.ru/www/plugins/gallery/classes/modules/gallery/mapper/Gallery.mapper.class.php line 59
+)
+]
+[2012-09-04 10:51:39][11267][7991][ERROR][SQL Error: Unknown column 'full' in 'where clause' at /home/u224958/quarry.ru/www/plugins/gallery/classes/modules/gallery/mapper/Gallery.mapper.class.php line 23<br>
+Array
+(
+    [code] => 1054
+    [message] => Unknown column 'full' in 'where clause'
+    [query] => select * from prefix_gallery_album where id = full
+    [context] => /home/u224958/quarry.ru/www/plugins/gallery/classes/modules/gallery/mapper/Gallery.mapper.class.php line 23
+)
+]
